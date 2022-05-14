@@ -106,13 +106,14 @@ public class BeatDetection : MonoBehaviour
         averageE.localScale = new Vector3(10f, height, 1f);
         var cpos = averageE.localPosition;
         averageE.localPosition = new Vector3(cpos.x, height / 2f, cpos.z);
+        var normalizedC = Divide(_c, _maxC);
 
         height = Divide(_c, _maxC) * 100;
         c.localScale = new Vector3(10f, height, 1f);
         cpos = c.localPosition;
         c.localPosition = new Vector3(cpos.x, height / 2f, cpos.z);
         
-        _imageMat.SetFloat(BeatStrength, _c);
+        _imageMat.SetFloat(BeatStrength, normalizedC);
     }
 
     // Start is called before the first frame update

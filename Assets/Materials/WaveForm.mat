@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: WaveForm
-  m_Shader: {fileID: 4800000, guid: 0b285cd9ae3b20f4bac119a680d5bd4c, type: 3}
+  m_Shader: {fileID: 4800000, guid: 53d7cba0ef084faf8da553a364b1dfdb, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -61,6 +61,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _BeatStrength: 0.8102341
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -79,10 +80,11 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color1: {r: 1, g: 0, b: 0.95441294, a: 0.8352941}
-    - _Color2: {r: 0.7015796, g: 0, b: 1, a: 0.77254903}
-    - _Color3: {r: 0.7019608, g: 0, b: 1, a: 0.56078434}
-    - _Color4: {r: 0.7019608, g: 0, b: 1, a: 0.45490196}
-    - _Color5: {r: 0.7019608, g: 0, b: 1, a: 0.21176471}
+    - _Color1: {r: 0.07008723, g: 0.3301887, b: 0.23514096, a: 0.77254903}
+    - _Color2: {r: 1, g: 0, b: 0.9654913, a: 0.5686275}
+    - _Color3: {r: 1, g: 0, b: 0.8581357, a: 0.5372549}
+    - _Color4: {r: 1, g: 0, b: 0.92892265, a: 0.5176471}
+    - _Color5: {r: 0.02745098, g: 0.4392157, b: 0.83137256, a: 0.7607843}
+    - _ColorBG: {r: 0.8679245, g: 0.19314504, b: 0.05322181, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
